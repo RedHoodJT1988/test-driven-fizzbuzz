@@ -7,6 +7,6 @@ describe('fizzBuzz()', () => {
     });
     it('returns the given number for multiples of neither 3 or 5', () => {
         expect(fizzBuzz(1)).toBe('1');
-        expect(fiizBuzz(22)).toBe('22');
+        expect(fizzBuzz(22)).toBe('22');
     });
 });;
